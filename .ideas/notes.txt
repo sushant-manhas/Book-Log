@@ -1,0 +1,21 @@
+Not added API keys in any API as of now (for development). Do add API keys while deployment
+
+Google books api to get books on search needs to be fastened. Presently, very slow. Look for solutions.
+
+We can also add an AMAZON Affiliator link to each of the book
+
+https://github.com/googleapis/google-api-nodejs-client#oauth2-client
+
+TODO: Author information, like image, birth, death (look for API)
+
+TODO -> remove process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '0' this from server.js file.
+
+TODO -> Remove console logs
+
+TODO: Before making call to API, always check the expiration time of access token, using Date.now()
+
+TODO: Add state in Oauth?
+
+Note: Sign in and Sign up through Google, both requests are sent to /user/login/google
+
+TODO: Block login and signup paths if already logged in
